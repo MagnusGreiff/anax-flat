@@ -14,23 +14,30 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "start" => [
+                "text"  => t("Start"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Me-sida"),
+                "mark-if-parent" => true,
+            ],
+
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar från kmom uppgifter"),
                 "mark-if-parent" => true,
             ],
 
             "about" => [
-                "text"  => t("About"),
+                "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om Sidan")
             ],
 
-            "test" => [
-                "text"  => t("test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("test")
+            "markdown" => [
+                "text"  => t("markdown"),
+                "url"   => $this->di->get("url")->create("markdown"),
+                "title" => t("markdown")
             ],
         ],
     ],
