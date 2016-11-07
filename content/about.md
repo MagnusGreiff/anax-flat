@@ -1,10 +1,11 @@
-About this site
+Om webbsidan
 ==============================================
 
-The primary focus of this site is to:
+Denna webbsidan är en del av kursen [design](https://dbwebb.se/kurser/design) som lärs ut på Blekinge Tekniska Högskola.
 
-* To be used in teaching the [dbwebb course design](http://dbwebb.se/design).
+Ramverket som används är Anax-flat.
 
-The source for this site is available on GitHub in [canax/anax-flat](git@github.com:canax/anax-flat.git).
+Koden till denna webbsidan hittar du här: [anax-flat](https://github.com/MagnusGreiff/anax-flat).
 
-This site is produced by [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
+![alt text](img/image1.jpeg)
+
