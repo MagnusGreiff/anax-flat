@@ -1,4 +1,3 @@
-####Download
+####Ladda ner koden
 
-* [GitHub](https://github.com/canax/anax-flat)
-* [Packagist](https://packagist.org/packages/mos/anax-flat)
+* [GitHub](https://github.com/MagnusGreiff/anax-flat)
