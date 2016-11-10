@@ -1,11 +1,15 @@
 Om webbsidan
 ==============================================
-
-Denna webbsidan är en del av kursen [design](https://dbwebb.se/kurser/design) som lärs ut på Blekinge Tekniska Högskola.
-
+<div class="about_content">
+<p>
+Denna webbsidan är en del av kursen <a href="https://dbwebb.se/kurser/design">Design</a> som lärs ut på Blekinge Tekniska Högskola.
+</p>
+<p>
 Ramverket som används är Anax-flat.
-
-Koden till denna webbsidan hittar du här: [anax-flat](https://github.com/MagnusGreiff/anax-flat).
-
-![alt text](img/image1.jpeg)
+</p>
+<p>
+Koden till denna webbsidan hittar du här: <a href="https://github.com/MagnusGreiff/anax-flat">Anax-flat</a>.
+</p>
+<img class="about_img" src="img/image1.jpeg" alt="image">
+</div>
 

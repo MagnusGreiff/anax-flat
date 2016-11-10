@@ -163,3 +163,4 @@ upgrade-responsive-menu:
 .PHONY: upgrade
 upgrade: upgrade-normalize upgrade-responsive-menu
 	@$(call HELPTEXT,$@)
+
