@@ -743,6 +743,56 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .site-logo-text a {
   text-decoration: none;
 }
+.navbar2 {
+  margin-top: 1%;
+}
+.index_content {
+  width: 100%;
+  position: relative;
+}
+.index_content p {
+  width: 50%;
+}
+.index_content .index_img {
+  position: absolute;
+  top: 0;
+  right: 13.5%;
+}
+.about_content {
+  width: 100%;
+  position: relative;
+  height: 240px;
+}
+.about_content p {
+  width: 80%;
+}
+.about_content .about_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.content p img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  margin-right: 3px;
+}
+.content p {
+  width: 80%;
+  margin-left: 3px;
+}
+.footer-column-wrapper {
+  text-align: center;
+}
 img {
   max-width: 100%;
 }
@@ -757,6 +807,20 @@ img {
     width: 10%;
   }
 }
+@media screen and (max-width: 850px) {
+  .index_content .index_img {
+    top: 0;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .index_content p {
+    width: 40%;
+  }
+  .about_content p {
+    width: 60%;
+  }
+}
 @media screen and (max-width: 750px) {
   .sidebar {
     display: none;
@@ -766,6 +830,40 @@ img {
   .footer-column {
     width: 100%;
   }
+  .index_content .index_img {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  .index_content p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .about_content .about_img {
+    display: none;
+  }
+  .about_content p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .about_content {
+    margin-bottom: -20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  .index_content p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+  }
 }
 @media screen and (max-width: 560px) {
   .site-logo-text {
@@ -773,5 +871,19 @@ img {
   }
   .navbar2 {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content p img {
+    display: none;
+  }
+  .content p {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  .content p {
+    font-size: 0.7em;
   }
 }

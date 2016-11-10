@@ -3,21 +3,23 @@
 */
 @import url(modules.less);
 
-
+body {
+  //background-color: black;
+}
 
 /** --------------------------------------------------------------
  *  Logo images
  */
 .logo-1 {
-    position: absolute;
-    top: 70px;
-    left: -140px;
+  position: absolute;
+  top: 70px;
+  left: -140px;
 }
 
 .site-logo-text-icon {
-    img {
-        vertical-align: bottom;
-    }
+  img {
+    vertical-align: bottom;
+  }
 }
 
 /** --------------------------------------------------------------
@@ -26,80 +28,219 @@
 
 // Size of max navbar button
 .rm-max .rm-small .rm-button {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 @maxButtonFontSize: 2em;
 
 // Style navbar
 .rm-desktop li {
-    background-color: #096;
+  background-color: #096;
 }
 
 @navbarItemBgColor: #096;
-
 
 // Size each item in the header
 .site-logo-text,
 .navbar2,
 .profile {
-    float: left;
-    width: 42%;
+  float: left;
+  width: 42%;
 }
 
 .site-header {
-    height: 80px;
+  height: 80px;
 }
 
 // Site title
 .site-logo-text {
-    font-size: 2em;
-    
-    a {
-        text-decoration: none;
-    }
+  font-size: 2em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.navbar2 {
+  margin-top: 1%;
+}
+
+.index_content {
+  width: 100%;
+  position: relative;
+}
+
+.index_content p {
+  width: 50%;
+}
+
+.index_content .index_img {
+  position: absolute;
+  top: 0;
+  right: 13.5%;
+}
+
+.about_content {
+  width: 100%;
+  position: relative;
+  height: 240px;
+}
+
+.about_content p {
+  width: 80%;
+}
+
+.about_content .about_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.content p img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  margin-right: 3px;
+}
+
+.content p {
+  width: 80%;
+  margin-left: 3px;
+}
+
+
+//footer
+
+.footer-column-wrapper {
+  text-align: center;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 900px) {
-    .site-logo-text {
-        width: 40%;
-    }
+  .site-logo-text {
+    width: 40%;
+  }
 
-    .navbar2 {
-        width: 50%;
-    }
+  .navbar2 {
+    width: 50%;
+  }
 
-    .profile {
-        width: 10%;
-    }
+  .profile {
+    width: 10%;
+  }
 }
 
+@media screen and (max-width: 850px) {
+  .index_content .index_img {
+    top: 0;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .index_content p {
+    width: 40%;
+  }
+
+  .about_content p {
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 750px) {
-    .sidebar {
-        //width: 100%;
-        display: none;
-    }
+  .sidebar {
+    //width: 100%;
+    display: none;
+  }
 }
-
 
 @media screen and (max-width: 700px) {
-    .footer-column {
-        width: 100%;
-    }
+  .footer-column {
+    width: 100%;
+  }
+
+  .index_content .index_img {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .index_content p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+
+  .about_content .about_img {
+    display: none;
+  }
+
+  .about_content p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about_content {
+    margin-bottom: -20%;
+  }
+
 }
 
+@media screen and (max-width: 600px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .index_content p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+}
 
 @media screen and (max-width: 560px) {
-    .site-logo-text {
-        width: 90%;
-    }
+  .site-logo-text {
+    width: 90%;
+  }
 
-    .navbar2 {
-        display: none;
-    }
+  .navbar2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content p img {
+    display: none;
+  }
+
+  .content p {
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .content p {
+    font-size: 0.7em;
+  }
 }
