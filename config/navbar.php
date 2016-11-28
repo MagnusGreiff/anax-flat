@@ -45,6 +45,25 @@ return [
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography")
             ],
+
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis"),
+                "mark-if-parent" => true,
+            ],
+            "Theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
+                "mark-if-parent" => true,
+            ],
+            "theme-selector" => [
+                "text"  => t("Theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theme-selector"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -92,6 +111,25 @@ return [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography")
+            ],
+
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis"),
+                "mark-if-parent" => true,
+            ],
+            "Theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
+                "mark-if-parent" => true,
+            ],
+            "theme-selector" => [
+                "text"  => t("theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("theme-selector"),
+                "mark-if-parent" => true,
             ],
         ],
     ],
