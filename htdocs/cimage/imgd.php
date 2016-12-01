@@ -22,7 +22,10 @@
  *
  * The settings below are only a few of the available ones. Check the file in
  * webroot/img_config.php for a complete list of configuration options.
+ *
+ *
  */
+
 $config = array(
 
     'mode'         => 'development',               // 'production', 'development', 'strict'
