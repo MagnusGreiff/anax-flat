@@ -64,6 +64,18 @@ return [
                 "title" => t("Theme-selector"),
                 "mark-if-parent" => true,
             ],
+            "Images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images"),
+                "mark-if-parent" => true,
+            ],
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -129,6 +141,18 @@ return [
                 "text"  => t("theme-selector"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("theme-selector"),
+                "mark-if-parent" => true,
+            ],
+            "Images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images"),
+                "mark-if-parent" => true,
+            ],
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg"),
                 "mark-if-parent" => true,
             ],
         ],
