@@ -77,5 +77,29 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "line"       => [
+            "title"      => "Line principle",
+            "class"      => "line",
+            "stylesheets" => [
+                "css/designprinciple1.min.css"
+            ]
+        ],
+        "movement"       => [
+            "title"      => "Movement principle",
+            "class"      => "movement",
+            "stylesheets" => [
+                "css/designprinciple2.min.css"
+            ]
+        ],
+        "depth"       => [
+            "title"      => "Depth principle",
+            "class"      => "depth",
+            "stylesheets" => [
+                "css/designprinciple3.min.css"
+            ]
+        ],
     ]
 ];
