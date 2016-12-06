@@ -13,7 +13,6 @@ Det jag gör mest på min fritid är att sitta hemma vid datorn. Jag brukar mest
 
 Något jag verkligen tycker om är att vara ute i naturen och bara gå rundor och kolla på allt som finns. Det händer inte så ofta att jag är ute men när det väl händer så känns det jättebra.
 
-![test](cimage/imgd.php?src=dbwebbisar.jpg&w=500&h=300)
 
 
 <img class="index_img" src="img/small_munge.jpg" alt="test">
