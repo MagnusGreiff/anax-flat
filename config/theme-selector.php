@@ -101,5 +101,28 @@ return [
                 "css/designprinciple3.min.css"
             ]
         ],
+        "separator4" => "------------------------------------------------",
+
+        "Design Element 1"       => [
+            "title"      => "Bakgrundsbild, opacity and borders",
+            "class"      => "designelement1",
+            "stylesheets" => [
+                "css/designelement1.min.css"
+            ]
+        ],
+        "Design Element 2"       => [
+            "title"      => "Strukturell bild, centrerad, bild som designelement",
+            "class"      => "designelement2",
+            "stylesheets" => [
+                "css/designelement2.min.css"
+            ]
+        ],
+        "Design Element 3"       => [
+            "title"      => "Gradients, full bredd",
+            "class"      => "designelement3",
+            "stylesheets" => [
+                "css/designelement3.min.css"
+            ]
+        ],
     ]
 ];
