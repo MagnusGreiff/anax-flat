@@ -11,7 +11,7 @@ Här har jag valt att arbeta med bakgrundbild, opacity och borders. Bakgrundbild
 jag på hela body så att man alltid kan se bakgrundsbilden. Border har jag satt på row för att
 det ska gå runt allt innehåll. 
 
-[FIGURE src="image/bg_image_border_opacity.png"]
+[FIGURE src="image/bg_image_border_opacity.png&w=500&h=500"]
 
 ####Strukturell bild, centrerat, bild designelement
 
@@ -20,9 +20,9 @@ text-align: center. Det var lite svårt centrera innehållet då min sida är re
 Jag har också använt mig av bilder som designelement. Det jag gjorde med bilderna är att jag ändrade
 margin-left så att de flyttade sig. Nu ligger de lite här och där.
 
-[FIGURE src="image/bild_designelement.png"]
+[FIGURE src="image/bild_designelement.png&w=500&h=500"]
 
-[FIGURE src="image/text_center.png"]
+[FIGURE src="image/text_center.png&w=500&h=500"]
 
 
 ####Gradients, full bredd
@@ -33,4 +33,4 @@ mitten av sidan. Jag har satt att body är 100% bred och sen har jag valt att s�
 flash-wrap och breadcrumb-list till 80% av den totala bredden. Jag gjorde det för att göra sidan
  lite snyggare.
  
- [FIGURE src="image/bredd.png"]
+ [FIGURE src="image/bredd.png&w=500&h=500"]

@@ -15,7 +15,8 @@ Något jag verkligen tycker om är att vara ute i naturen och bara gå rundor oc
 
 
 
-<img class="index_img" src="img/small_munge.jpg" alt="test">
+
+[FIGURE src="image/small_munge.jpg&w=300&h=300" class="w50"]
 
 
 

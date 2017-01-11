@@ -19,6 +19,8 @@ Designen gynnar webbsidan väldigt bra. Man får en bra känsla när man kommer 
 ####Designprinciper
 Webbsidan använder några olika designprinciper som balans, återanvändning och grid. Det första man ser när man kommer in på sidan är två rutor som är lika stora och det ger balans. Om man rullar ner ser man hur de har använt ett grid för att placera ut informationen på ett snyggt sätt. Under “Så reser du med oss” ser man att de har återanvänt samma design på alla boxar.
 
+[FIGURE src="image/skanetrafiken.png&w=1000&h=500&cf" caption="Skanetrfiken webbsida" class="w50 center"]
+[Skanetrafiken](https://www.skanetrafiken.se/)
 
 #Spotify
 
@@ -35,6 +37,9 @@ Designen passar bra till en musiktjänst. Den lila/rosa färgen och de rörliga 
 ####Designprinciper
 Spotify använder sig av principerna “rörelse” och “perspektiv”. När du scrollar på sidan så tonas flyter element fram. Ganska subtila rörelser som ger ett trevligt intryck. De använder även en parallax-effekt när man scrollar, vilket ger bilder och andra element på sidan ett djup.
 
+[FIGURE src="image/spotify.png&w=1000&h=500&cf" caption="Spotify webbsida" class="w50 center"]
+[Spotify](https://www.spotify.com/se/)
+
 #Honda
 ####Mål och syfte
 Syftet med denna webbplats är att övertala besökaren att deras teknik är den bästa när det kommer till fordon. 
@@ -50,6 +55,9 @@ De använder sig av bilder utan någon information under dem. Bilderna talar fö
 
 På vissa delar av webbplatsen finns det videoklipp att kolla på. För att besökaren lätt ska kunna se skillnaden mellan videoklipp och bilder har de som skapat hemsidan använt sig utav rörelser på videoklippen.
 
+[FIGURE src="image/honda.png&w=1000&h=500&cf" caption="Honda webbsida" class="w50 center"]
+[Honda](http://www.honda.com/)
+
 #Wrist.im
 ####Mål och syfte
 Syftet på denna webbplats är att illustrera olika designer på klockor. 
@@ -62,6 +70,9 @@ Vi i gruppen tycker absolut att designen gynnar webbplatsens mål och syfte. Eft
 ####Designprinciper
 Färgvalet i varje del av hemsidan flyter på riktigt bra och det är inte alls störande för ögat även fast det är många färger.  Det är även en balans på webbplatsen då varje klocka får lika stor del av webbplatsen.
 
+[FIGURE src="image/wrist.png&w=1000&h=500&cf" caption="Wrist.im webbsida" class="w50 center"]
+
+[Wrist.im](http://www.wrist.im/)
 
 ##Medlemmar
 

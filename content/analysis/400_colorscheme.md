@@ -2,7 +2,7 @@
 
 ###Youtube
 
-<img class="youtube" src="img/youtube.png" alt="image">
+[FIGURE src="image/youtube.png&w=1000&h=500&cf" caption="Youtube webbsida" class="w50 center"]
 
 
 ####Färgpalett
@@ -45,7 +45,7 @@ Färgvalet gynnar webbsidan. Färgerna är inte för mörka eller för ljusa. De
 
 
 
-<img class="reddit" src="img/reddit.png" alt="image">
+[FIGURE src="image/reddit.png&w=1000&h=500&cf" caption="Reddit webbsida" class="w50 center"]
 
 ####Färgpalett
 <table style="border-spacing: 4px; border-collapse: separate;">
@@ -83,7 +83,8 @@ Färgvalet gör så att sidan ser enkel ut men bra ut. Man kan säga att de inte
 
 
 
-<img class="google" src="img/google.png" alt="image">
+[FIGURE src="image/google.png&w=1000&h=500&cf" caption="Google webbsida" class="w50 center"]
+
 
 ####Färgpalett
 
@@ -115,7 +116,7 @@ Färgvalet gynnar sidan. När man vill googla något så vill man inte att färg
 
 ###Screen Capture
 
-<img class="screenC" src="img/screenC.png" alt="image">
+[FIGURE src="image/screenC.png&w=1000&h=500&cf" caption="ScreenC webbsida" class="w50 center"]
 
 
 ####Färgpalett
